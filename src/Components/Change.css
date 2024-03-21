@@ -1,0 +1,44 @@
+.Components {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+#CopyLine {
+    display: flex;
+    flex-direction:row;
+}
+#Change {
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    width: 220px;
+    height: 30px;
+    border: 0px;
+    border-radius: 3px;
+}
+#Copy {
+    margin-left: 4px;
+    border: 0cap;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px 0px black;
+}
+#color {
+    border-radius: 4px;
+    border: 0px;
+    background-color: white;
+    box-shadow: 1px 2px 4px 0px black;
+}
+#Copy:hover {
+    background-color: white !important;
+}
+#Change:hover {
+    background-color: white !important;
+    color: black;
+}
